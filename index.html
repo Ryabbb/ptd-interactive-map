@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Interactive Map</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="ptd2-map-container" style="margin-top: 7%;">
+      <img
+        src="map.png"
+        alt="Interactive Map"
+        id="ptd2-map-image"
+        style="object-fit: fill"
+      />
+
+      <a
+        href="https://ptd2.miraheze.org//wiki/Route_29"
+        class="ptd2-map-region"
+        title="Route 29"
+        style="top: 184px; left: 172px; width: 40px; height: 16px"
+      ></a>
+      <a
+        href="https://ptd2.miraheze.org//wiki/Route_30"
+        class="ptd2-map-region"
+        title="Route 30"
+        style="top: 136px; left: 152px; width: 16px; height: 44px"
+      ></a>
+      <a
+        href="https://ptd2.miraheze.org//wiki/Route_31"
+        class="ptd2-map-region"
+        title="Route 31"
+        style="
+          top: 120px;
+          left: 140px;
+          width: 28px;
+          height: 16px;
+          border-radius: 0 8px 0 0;
+        "
+      ></a>
+      <a
+        href="https://ptd2.miraheze.org//wiki/Route_32"
+        class="ptd2-map-region"
+        title="Route 32"
+        style="top: 136px; left: 104px; width: 16px; height: 72px"
+      ></a>
+      <a
+        href="https://ptd2.miraheze.org//wiki/Route_33"
+        class="ptd2-map-region"
+        title="Route 33"
+        style="
+          top: 208px;
+          left: 104px;
+          width: 16px;
+          height: 24px;
+          border-radius: 0 0 8px 0;
+        "
+      ></a>
+      <a
+        href="https://ptd2.miraheze.org//wiki/Route_34"
+        class="ptd2-map-region"
+        title="Route 34"
+        style="
+          top: 188px;
+          left: 56px;
+          width: 16px;
+          height: 44px;
+          border-radius: 0 0 0 8px;
+        "
+      ></a>
+      <a
+        href="https://ptd2.miraheze.org//wiki/Route_35"
+        class="ptd2-map-region"
+        title="Route 35"
+        style="top: 120px; left: 56px; width: 16px; height: 28px"
+      ></a>
+      <a
+        href="https://ptd2.miraheze.org//wiki/Route_36"
+        class="ptd2-map-region"
+        title="Route 36"
+        style="
+          top: 104px;
+          left: 56px;
+          width: 48px;
+          height: 16px;
+          border-radius: 8px 0 0 0;
+        "
+      ></a>
+      <a
+        href="https://ptd2.miraheze.org//wiki/Route_37"
+        class="ptd2-map-region"
+        title="Route 37"
+        style="top: 88px; left: 72px; width: 16px; height: 16px"
+      ></a>
+
+      <a
+        href="https://ptd2.miraheze.org//wiki/Route_38"
+        class="ptd2-map-region"
+        title="Route 38"
+        style="top: 72px; left: 24px; width: 28px; height: 16px"
+      ></a>
+      <a
+        href="https://ptd2.miraheze.org//wiki/Route_39"
+        class="ptd2-map-region"
+        title="Route 39"
+        style="
+          top: 72px;
+          left: 8px;
+          width: 16px;
+          height: 28px;
+          border-radius: 8px 0 0 0;
+        "
+      ></a>
+      <a
+        href="https://ptd2.miraheze.org//wiki/Route_42"
+        class="ptd2-map-region"
+        title="Route 42"
+        style="top: 72px; left: 88px; width: 48px; height: 16px"
+      ></a>
+      <a
+        href="https://ptd2.miraheze.org//wiki/Route_43"
+        class="ptd2-map-region"
+        title="Route 43"
+        style="top: 40px; left: 136px; width: 16px; height: 32px"
+      ></a>
+      <a
+        href="https://ptd2.miraheze.org//wiki/Route_44"
+        class="ptd2-map-region"
+        title="Route 44"
+        style="top: 72px; left: 152px; width: 48px; height: 16px"
+      ></a>
+      <a
+        href="https://ptd2.miraheze.org//wiki/Route_45"
+        class="ptd2-map-region"
+        title="Route 45"
+        style="
+          top: 88px;
+          left: 200px;
+          width: 16px;
+          height: 80px;
+          border-radius: 0 0 8px 0;
+        "
+      ></a>
+      <a
+        href="https://ptd2.miraheze.org//wiki/Route_46"
+        class="ptd2-map-region"
+        title="Route 46"
+        style="
+          top: 152px;
+          left: 184px;
+          width: 16px;
+          height: 32px;
+          border-radius: 8px 0 0 0;
+        "
+      ></a>
+
+      <a
+        href="https://ptd2.miraheze.org//wiki/New_Bark_Town"
+        class="ptd2-map-region"
+        title="New Bark Town"
+        style="
+          top: 180px;
+          left: 212px;
+          width: 24px;
+          height: 24px;
+          border-radius: 8px;
+        "
+      ></a>
+      <a
+        href="https://ptd2.miraheze.org//wiki/Cherrygrove_City"
+        class="ptd2-map-region"
+        title="Cherrygrove City"
+        style="
+          top: 180px;
+          left: 132px;
+          width: 40px;
+          height: 24px;
+          border-radius: 8px;
+        "
+      ></a>
+      <a
+        href="https://ptd2.miraheze.org//wiki/Violet_City"
+        class="ptd2-map-region"
+        title="Violet City"
+        style="
+          top: 100px;
+          left: 100px;
+          width: 40px;
+          height: 40px;
+          border-radius: 8px;
+        "
+      ></a>
+      <a
+        href="https://ptd2.miraheze.org//wiki/Azalea_Town"
+        class="ptd2-map-region"
+        title="Azalea Town"
+        style="
+          top: 212px;
+          left: 68px;
+          width: 40px;
+          height: 24px;
+          border-radius: 8px;
+        "
+      ></a>
+      <a
+        href="https://ptd2.miraheze.org//wiki/Goldenrod_City"
+        class="ptd2-map-region"
+        title="Goldenrod City"
+        style="
+          top: 148px;
+          left: 20px;
+          width: 56px;
+          height: 40px;
+          border-radius: 8px;
+        "
+      ></a>
+      <a
+        href="https://ptd2.miraheze.org//wiki/Ecruteak_City"
+        class="ptd2-map-region"
+        title="Ecruteak City"
+        style="
+          top: 52px;
+          left: 52px;
+          width: 40px;
+          height: 40px;
+          border-radius: 8px;
+        "
+      ></a>
+      <a
+        href="https://ptd2.miraheze.org//wiki/Olivine_City"
+        class="ptd2-map-region"
+        title="Olivine City"
+        style="
+          top: 100px;
+          left: 4px;
+          width: 40px;
+          height: 40px;
+          border-radius: 8px;
+        "
+      ></a>
+      <a
+        href="https://ptd2.miraheze.org//wiki/Mahogany_Town"
+        class="ptd2-map-region"
+        title="Mahogany Town"
+        style="
+          top: 68px;
+          left: 132px;
+          width: 24px;
+          height: 24px;
+          border-radius: 8px;
+        "
+      ></a>
+      <a
+        href="https://ptd2.miraheze.org//wiki/Blackthorn_City"
+        class="ptd2-map-region"
+        title="Blackthorn City"
+        style="
+          top: 52px;
+          left: 196px;
+          width: 40px;
+          height: 40px;
+          border-radius: 8px;
+        "
+      ></a>
+      <a
+        href="https://ptd2.miraheze.org//wiki/Secret_Spot"
+        class="ptd2-map-region"
+        title="Secret Spot"
+        style="
+          top: 170px;
+          left: 210px;
+          width: 16px;
+          height: 16px;
+          border-radius: 8px;
+        "
+      ></a>
+      <a
+        href="https://ptd2.miraheze.org//wiki/Dark_Cave"
+        class="ptd2-map-region"
+        title="Dark Cave"
+        style="
+          top: 120px;
+          left: 152px;
+          width: 16px;
+          height: 16px;
+          border-radius: 8px;
+        "
+      ></a>
+      <a
+        href="https://ptd2.miraheze.org//wiki/Sprout_Tower"
+        class="ptd2-map-region"
+        title="Sprout Tower"
+        style="
+          top: 104px;
+          left: 120px;
+          width: 16px;
+          height: 16px;
+          border-radius: 8px;
+        "
+      ></a>
+      <a
+        href="https://ptd2.miraheze.org//wiki/Ruins_of_Alph"
+        class="ptd2-map-region"
+        title="Ruins of Alph"
+        style="
+          top: 116px;
+          left: 84px;
+          width: 24px;
+          height: 40px;
+          border-radius: 8px;
+        "
+      >
+      </a>
+      <a
+        href="https://ptd2.miraheze.org//wiki/Union_Cave"
+        class="ptd2-map-region"
+        title="Union Cave"
+        style="
+          top: 200px;
+          left: 104px;
+          width: 16px;
+          height: 16px;
+          border-radius: 8px;
+        "
+      ></a>
+      <a
+        href="https://ptd2.miraheze.org//wiki/Slowpoke_Well"
+        class="ptd2-map-region"
+        title="Slowpoke Well"
+        style="
+          top: 216px;
+          left: 88px;
+          width: 16px;
+          height: 16px;
+          border-radius: 8px;
+        "
+      ></a>
+      <a
+        href="https://ptd2.miraheze.org//wiki/Ilex_Forest"
+        class="ptd2-map-region"
+        title="Ilex Forest"
+        style="
+          top: 216px;
+          left: 56px;
+          width: 16px;
+          height: 16px;
+          border-radius: 8px;
+        "
+      ></a>
+      <a
+        href="https://ptd2.miraheze.org//wiki/National_Park"
+        class="ptd2-map-region"
+        title="National Park"
+        style="
+          top: 92px;
+          left: 44px;
+          width: 24px;
+          height: 24px;
+          border-radius: 8px;
+        "
+      ></a>
+      <a
+        href="https://ptd2.miraheze.org//wiki/Mt_Mortar"
+        class="ptd2-map-region"
+        title="Mt. Mortar"
+        style="
+          top: 72px;
+          left: 104px;
+          width: 16px;
+          height: 16px;
+          border-radius: 8px;
+        "
+      ></a>
+      <a
+        href="https://ptd2.miraheze.org//wiki/Lake_of_Rage"
+        class="ptd2-map-region"
+        title="Lake of Rage"
+        style="
+          top: 4px;
+          left: 116px;
+          width: 56px;
+          height: 40px;
+          border-radius: 8px;
+        "
+      ></a>
+      <a
+        href="https://ptd2.miraheze.org//wiki/Sam%27s_House"
+        class="ptd2-map-region"
+        title="Sam's House"
+        style="
+          top: 8px;
+          left: 120px;
+          width: 16px;
+          height: 16px;
+          border-radius: 8px;
+        "
+      ></a>
+      <a
+        href="https://ptd2.miraheze.org//wiki/Ice_Path"
+        class="ptd2-map-region"
+        title="Ice Path"
+        style="
+          top: 56px;
+          left: 216px;
+          width: 16px;
+          height: 16px;
+          border-radius: 8px;
+        "
+      ></a>
+      <a
+        href="https://ptd2.miraheze.org//wiki/Dragon%27s_Den"
+        class="ptd2-map-region"
+        title="Dragon's Den"
+        style="
+          top: 56px;
+          left: 200px;
+          width: 16px;
+          height: 16px;
+          border-radius: 8px;
+        "
+      ></a>
+      <a
+        href="https://ptd2.miraheze.org//wiki/Dark_Cave"
+        class="ptd2-map-region"
+        title="Dark Cave"
+        style="
+          top: 88px;
+          left: 200px;
+          width: 16px;
+          height: 16px;
+          border-radius: 8px;
+        "
+      ></a>
+      <a
+        href="https://ptd2.miraheze.org//wiki/Dark_Cave"
+        class="ptd2-map-region"
+        title="Dark Cave"
+        style="
+          top: 152px;
+          left: 184px;
+          width: 16px;
+          height: 16px;
+          border-radius: 8px;
+        "
+      ></a>
+      <a
+        href="https://ptd2.miraheze.org//wiki/Tournament"
+        class="ptd2-map-region"
+        title="World Tournament"
+        style="
+          top: 96px;
+          left: 240px;
+          width: 24px;
+          height: 24px;
+          border-radius: 8px;
+        "
+      ></a>
+      <a
+        href="https://ptd2.miraheze.org/wiki/Hoopa#Location"
+        class="ptd2-map-region"
+        title="Metal Tower"
+        style="
+          top: 56px;
+          left: 72px;
+          width: 16px;
+          height: 16px;
+          border-radius: 8px;
+        "
+      ></a>
+    </div>
+
+    <!-- Tooltip (optional) -->
+    <div id="ptd2-map-tooltip" class="hidden"></div>
+
+    <!-- Link to the JavaScript file -->
+    <script src="script.js"></script>
+  </body>
+</html>
